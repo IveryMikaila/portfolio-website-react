@@ -8,12 +8,12 @@ function App() {
       <NavBar />
 <div className="container-fluid mainSection">
     <ul className="mynkList">
-   <li>ABOUT</li>
-   <li>PROJECTS</li>
-   <li>RESUME</li>
-   <li>CONTACT</li>
+   <li id="liOne">ABOUT</li>
+   <li id="liTwo">PROJECTS</li>
+   <li id="liThree">RESUME</li>
+   <li id="liFour">CONTACT</li>
    </ul>
-   <div className="description-container">
+   <div className="description-container" id="description-container">
     
   <div className="description ">
     <h1>

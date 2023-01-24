@@ -1,33 +1,43 @@
 :root{
-  --theme-color-purple: #390879;
-  --theme-color-green: #b8df10;
+  --theme-color-yellow: #FCF038;
+  --theme-color-black: #141414;
 }
 
 nav{
   text-align: center;
-  color: var(--theme-color-purple) !important;
+  color: var(--theme-color-yellow) !important;
 }
+  /*
 .mynkNavBar{
-  border-bottom: 10px solid var(--theme-color-green);
+
+  background-color: #FCF038 !important;
+  
+  border-bottom: 10px solid var(--theme-color-yellow); 
+
 }
+  */
+.navbar-toggler-icon{
+  background-image:url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 0, 0, 100%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e") ;
+}
+
 button.navbar-toggler{
   border: none;
 }
 button.navbar-toggler:hover{
-  border: 1px solid var(--theme-color-purple);
+  border: 1px solid var(--theme-color-yellow);
 }
 
 a.nav-link{
   font-family: sans-serif !important;
   text-transform: uppercase !important;
-  color: var(--theme-color-purple) !important;
+  color: var(--theme-color-yellow) !important;
 text-align: center;
 }
 a.nav-link:hover{
   color: var(--theme-color-green) !important;}
 .resumeBtn{
   background-color: white;
-  border: 1px solid var(--theme-color-purple);
+  border: 1px solid var(--theme-color-yellow);
   padding: 10px;
   border-radius: 7px;
 }
@@ -38,25 +48,25 @@ a.nav-link:hover{
   border-radius: 7px;
 }
 .resumeLink{
-  color: var(--theme-color-green);
+  color: var(--theme-color-black);
   text-decoration: none;
 
 }
 .resumeBtn:hover{
   background-color: white;
-  border: 1px solid var(--theme-color-green);
+  border: 1px solid var(--theme-color-black);
   padding: 10px;
   border-radius: 7px;
 }
 .resumeLink:hover{
-  color: var(--theme-color-green);
+  color: var(--theme-color-black);
   text-decoration: none;
 
 }
 
 .mainSection{
   height: 100vh;
-  border: 6px solid var(--theme-color-purple);
+  border: 6px solid var(--theme-color-black);
   overflow: hidden;
   display: flex;
   justify-content: center !important;
@@ -65,20 +75,22 @@ a.nav-link:hover{
 
 }
 .description-container{
-  background-color:var(--theme-color-purple);
-  color: white;
+  background-color:var(--theme-color-yellow);
+  color: var(--theme-color-black);
   width: 50%;
   display: flex;
   justify-content: center;
   text-align: center;
  margin-top: 10%;
+ border-radius: 50%;
+
 }
 .description h1{
   font-family: sans-serif;
   font-size: 60px;
   font-weight: bold;
   text-transform: uppercase;
-  color:white;
+  color:var(--theme-color-black);
   text-align: center;
   margin-top: 20px;
   
@@ -93,7 +105,7 @@ a.nav-link:hover{
   font-size: 60px;
   font-weight: bold;
   text-transform: uppercase;
-  color: var(--theme-color-purple);
+  color: var(--theme-color-black);
   list-style: none;
   width: 50%;
   margin-top: 10%;
@@ -101,4 +113,24 @@ a.nav-link:hover{
 }
 .mynkList li{
   margin-bottom: 50px;
+}
+.mynkList li:hover{
+  margin-bottom: 50px;
+  text-decoration: line-through var(--theme-color-yellow);
+  transform: scale(1.5) translate(100px,0);
+  
+}
+
+.mynkList:hover ~ #description-container{
+  background-color: red;
+  transform: scale(0.99);
+}
+
+.mynkList:nth-child(1):hover ~ #description-container{
+  background-color: pink;
+  transform: scale(0.99);
+}
+#liTwo:hover + #description-container{
+  background-color: purple;
+  transform: scale(0.99);
 }

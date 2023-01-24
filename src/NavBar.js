@@ -6,7 +6,7 @@ function NavBar(){
         <div>
      <nav class="navbar mynkNavBar bg-body-tertiary ">
   <div class="container-fluid">
-    <a class="navbar-brand " href="/"><img src={mynkLogo} width="200px" alt="Mikaila Ivery's Logo" /></a>
+    <a class="navbar-brand " href="/"><img src={mynkLogo} width="123px" alt="Mikaila Ivery's Logo" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
       <span class="navbar-toggler-icon"></span>
     </button>
