@@ -10,6 +10,13 @@ nav{
 .mynkNavBar{
   border-bottom: 10px solid var(--theme-color-green);
 }
+button.navbar-toggler{
+  border: none;
+}
+button.navbar-toggler:hover{
+  border: 1px solid var(--theme-color-purple);
+}
+
 a.nav-link{
   font-family: sans-serif !important;
   text-transform: uppercase !important;
@@ -21,6 +28,12 @@ a.nav-link:hover{
 .resumeBtn{
   background-color: white;
   border: 1px solid var(--theme-color-purple);
+  padding: 10px;
+  border-radius: 7px;
+}
+.dwnldBtn{
+  background-color: white;
+  border: none;
   padding: 10px;
   border-radius: 7px;
 }
@@ -48,6 +61,7 @@ a.nav-link:hover{
   display: flex;
   justify-content: center !important;
   padding: 0 !important;
+  
 
 }
 .description-container{
