@@ -2,16 +2,13 @@
   --theme-color-purple: #390879;
   --theme-color-green: #b8df10;
 }
-.spaceHolder{
-  padding: 30px;
-  background-color:var(--theme-color-green);
-}
+
 nav{
   text-align: center;
   color: var(--theme-color-purple) !important;
 }
 .mynkNavBar{
-  background-color:transparent!important;
+  border-bottom: 10px solid var(--theme-color-green);
 }
 a.nav-link{
   font-family: sans-serif !important;
@@ -49,13 +46,32 @@ a.nav-link:hover{
   border: 6px solid var(--theme-color-purple);
   overflow: hidden;
   display: flex;
-  justify-content: center;
+  justify-content: center !important;
+  padding: 0 !important;
+
 }
-.description{
-  margin: 10px;
-  margin-left: 60px;
-  padding-left: 30px;
+.description-container{
+  background-color:var(--theme-color-purple);
+  color: white;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+ margin-top: 10%;
+}
+.description h1{
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color:white;
+  text-align: center;
+  margin-top: 20px;
+  
+}
+.description p{
   text-align: right;
+  margin: 20px;
 
 }
 .mynkList{
@@ -63,11 +79,12 @@ a.nav-link:hover{
   font-size: 60px;
   font-weight: bold;
   text-transform: uppercase;
-  color: #ccc;
+  color: var(--theme-color-purple);
   list-style: none;
+  width: 50%;
+  margin-top: 10%;
 
 }
 .mynkList li{
-  margin: 20px;
   margin-bottom: 50px;
 }
