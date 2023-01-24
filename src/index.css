@@ -1,13 +1,73 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+:root{
+  --theme-color-purple: #390879;
+  --theme-color-green: #b8df10;
+}
+.spaceHolder{
+  padding: 30px;
+  background-color:var(--theme-color-green);
+}
+nav{
+  text-align: center;
+  color: var(--theme-color-purple) !important;
+}
+.mynkNavBar{
+  background-color:transparent!important;
+}
+a.nav-link{
+  font-family: sans-serif !important;
+  text-transform: uppercase !important;
+  color: var(--theme-color-purple) !important;
+text-align: center;
+}
+a.nav-link:hover{
+  color: var(--theme-color-green) !important;}
+.resumeBtn{
+  background-color: white;
+  border: 1px solid var(--theme-color-purple);
+  padding: 10px;
+  border-radius: 7px;
+}
+.resumeLink{
+  color: var(--theme-color-green);
+  text-decoration: none;
+
+}
+.resumeBtn:hover{
+  background-color: white;
+  border: 1px solid var(--theme-color-green);
+  padding: 10px;
+  border-radius: 7px;
+}
+.resumeLink:hover{
+  color: var(--theme-color-green);
+  text-decoration: none;
+
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.mainSection{
+  height: 100vh;
+  border: 6px solid var(--theme-color-purple);
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+}
+.description{
+  margin: 10px;
+  margin-left: 60px;
+  padding-left: 30px;
+  text-align: right;
+
+}
+.mynkList{
+  font-family: sans-serif;
+  font-size: 60px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #ccc;
+  list-style: none;
+
+}
+.mynkList li{
+  margin: 20px;
+  margin-bottom: 50px;
 }
