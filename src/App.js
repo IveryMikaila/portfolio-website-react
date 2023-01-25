@@ -8,6 +8,10 @@ function App() {
 const [cursorX, setCursorX] = useState()
 const [cursorY, setCursorY] = useState()
 
+window.addEventListener('mousemove', (e)=>{
+  setCursorX(e.pageX)
+  setCursorY(e.pageY)
+})
 
 //Code for JavaScript Animations
   function updateAbout () {
@@ -54,7 +58,12 @@ let h1 = document.getElementById('h1');
 </p>
 </div>
 </div>
-<div className="cursor"></div>
+<div className="cursor"
+style={{
+  left:cursorX + 'px',
+  top:cursorY + "px"
+}}
+></div>
 
     </div>
     
