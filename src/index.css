@@ -132,3 +132,13 @@ font-size: 5rem;
   transform: scale(1.5) translate(100px,0);
   
 }
+
+.cursor{
+  width: 20px;
+  height: 20px;
+background-color: aqua; 
+border-radius: 50%;
+/*
+position:fixed;*/
+}
+

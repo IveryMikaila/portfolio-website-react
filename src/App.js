@@ -1,11 +1,15 @@
 
-import React from "react";
+import React, {useState} from "react";
 import NavBar from "./NavBar"
 
 
 function App() {
-  
+  //Custom Cursor Code
+const [cursorX, setCursorX] = useState()
+const [cursorY, setCursorY] = useState()
 
+
+//Code for JavaScript Animations
   function updateAbout () {
     let description = document.getElementById('description');
     description.style.backgroundColor = "#FCF038"
@@ -30,7 +34,7 @@ description.style.backgroundColor = "#0C24FB"
 let h1 = document.getElementById('h1');
     h1.innerHTML ="CONTACT"
 }
-
+//Actual Code for Website
   return (
     <div className="App">
       <NavBar />
@@ -50,8 +54,10 @@ let h1 = document.getElementById('h1');
 </p>
 </div>
 </div>
+<div className="cursor"></div>
 
     </div>
+    
     
   );
 }
