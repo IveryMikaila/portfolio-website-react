@@ -57,14 +57,13 @@ let h1 = document.getElementById('h1');
   Lorem ipsum dolor sit amet. Qui galisum enim At fugiat consequuntur sit modi quam. Aut quaerat iusto sit totam odio aut neque facilis et nesciunt blanditiis est voluptatem mollitia aut neque praesentium sed impedit aperiam. Ut reiciendis quas aut accusantium repudiandae non quaerat tenetur est quia rerum ut voluptas sint qui dolor officiis est quasi omnis? Eos adipisci dolore non eius assumenda aut praesentium galisum in molestiae alias aut soluta expedita et quia iusto.
 </p>
 </div>
-</div>
 <div className="cursor"
 style={{
   left:cursorX + 'px',
   top:cursorY + "px"
 }}
 ></div>
-
+</div>
     </div>
     
     
