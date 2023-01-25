@@ -1,8 +1,10 @@
+
 import React from "react";
 import NavBar from "./NavBar"
 
 
 function App() {
+  
 
   function updateAbout () {
     let description = document.getElementById('description');
