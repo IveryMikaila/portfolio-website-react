@@ -2,7 +2,9 @@
   --theme-color-yellow: #FCF038;
   --theme-color-black: #141414;
 }
-
+body{
+  cursor: crosshair;
+}
 nav{
   text-align: center;
   color: var(--theme-color-yellow) !important;
