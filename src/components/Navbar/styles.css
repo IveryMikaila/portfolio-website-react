@@ -1,0 +1,53 @@
+/*Nav Bar Styling*/
+nav{
+    text-align: center;
+    font-family: sans-serif;
+    color: var(--theme-color-black) !important;
+  }
+  
+  .navbar-toggler-icon{
+    background-image:url("data:image/svg+xml,%3csvg xmlns=%27http://www.w3.org/2000/svg%27 viewBox=%270 0 30 30%27%3e%3cpath stroke=%27rgba%280, 0, 0, 100%29%27 stroke-linecap=%27round%27 stroke-miterlimit=%2710%27 stroke-width=%272%27 d=%27M4 7h22M4 15h22M4 23h22%27/%3e%3c/svg%3e") ;
+  }
+  
+  button.navbar-toggler{
+    border: none;
+  }
+  .navbar-toggler:focus,
+  .navbar-toggler:active,
+  .navbar-toggler-icon:focus {
+      outline: none;
+      box-shadow: none;
+  }
+  #offcanvasNavbarLabel{
+  font-weight: bold;
+  text-decoration: underline var(--theme-color-yellow);
+  }
+  
+  a.nav-link{
+    font-family: sans-serif !important;
+    text-transform: uppercase !important;
+    color: var(--theme-color-black) !important;
+  text-align: center;
+  font-weight: bold;
+  font-size: 60px;
+  margin-bottom: 50px;
+  }
+  a.nav-link:hover{
+    color: var(--theme-color-yellow) !important;}
+  
+    .resumeDownload{
+      position: relative;
+      display: flex;
+      justify-content: center;
+    }
+  
+  .dwnldBtn{
+  background: transparent; 
+   border: none;
+  }
+  
+  .dwnldText{
+    top: 2px;
+    position: relative;
+  }
+  

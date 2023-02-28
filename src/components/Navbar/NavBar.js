@@ -1,10 +1,11 @@
 import React from "react";
-import mynkLogo from "./img/logo.png"
+import './styles.css'
+import mynkLogo from "../../assets/logo.png"
 
 function NavBar(){
     return (
         <div>
-     <nav class="navbar mynkNavBar bg-body-tertiary ">
+     <nav class="navbar mynkNavBar bg-body-tertiary">
   <div class="container-fluid">
     <a class="navbar-brand " href="/"><img src={mynkLogo} width="123px" alt="Mikaila Ivery's Logo" /></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
